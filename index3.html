@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Web</title>
+    <meta name="author" content="Yenfhael Armas">
+    <meta name="description" content="Primera pag. web">
+    <meta name="keywords" content="tutorial, desarrollo web, Yenfhael Armas">
+    <!-- <meta http-equiv="refresh" content="5, https://www.instagram.com/yenfharm/"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <style>
+        table {
+            border-collapse: collapse;
+            border: 2px solid grey;
+            letter-spacing: 1px;
+            font-size: 1rem;
+        }
+
+        td {
+            border: 1px solid green;
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid green;
+            padding: 10px 20px;
+            background-color: antiquewhite;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- <video controls muted width="300px" poster="img/Precios.png">
+        <source src="videos/SaveInsta.App - 3429644986092955558.mp4">
+        <p>si no furula <a href="videos/SaveInsta.App - 3429644986092955558.mp4"></a></p> 
+    </video> -->
+
+    <!-- <audio muted autoplay controls>
+        <source src="audio/A Great Work.mp3">
+        <p>porsi no furula <a href="audio/A Great Work.mp3"></a></p>
+    </audio> -->
+
+
+
+
+
+
+
+    <!-- <h1>Happy year</h1>
+    
+    <hr>
+
+    <h3>lista de invitados...</h3>
+
+    <ol type="a">
+        <li>mom
+            <ul>
+                <li>hermanas de mom</li>
+                <li>tios de mom</li>
+            </ul>
+        </li>
+        <li>dad</li>
+        <li>sister
+            <ol type="I">
+                <li>hijos</li>
+                <li>primos</li>
+                <li>hermanos</li>
+                <li>regalos</li>
+            </ol>
+        </li>
+        <li>brother in law</li>
+    </ol> -->
+
+
+
+
+
+
+    <!-- <table>
+
+        <COLgroup>
+            <col style="background-color: blueviolet;">
+            <col>
+            <col>
+            <col>
+        </COLgroup>
+
+        <tr>
+            <th>Nombre</th>
+            <th>Yenfhael</th>
+            <th>Rafael</th>
+            <th>Mildred</th>
+        </tr>
+        <tr>
+            <td>Edad</td>
+            <td>24</td>
+            <td>58</td>
+            <td>65</td>
+        </tr>
+        <tr>
+            <td>Sexo</td>
+            <td>M</td>
+            <td>M</td>
+            <td>F</td>
+        </tr>
+
+    </table> -->
+
+
+    <!-- <h2>Iframe</h2>
+
+    <hr>
+
+    <iframe src="https://www.google.com.ve/search?igu=1" frameborder="0" height="500px" width="500px"></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/bNV6iw13Rnk?si=WXlOpK0_CDURVQqd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63013.50631043818!2d-66.00184675!3d9.2134821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8dd48518263d5483%3A0x3ff11a8027efef97!2sValle%20De%20La%20Pascua%202350%2C%20Gu%C3%A1rico!5e0!3m2!1sen!2sve!4v1725652687130!5m2!1sen!2sve" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+
+
+    <h2>Formularios</h2>
+
+
+    <form action="envio.php" method="post">
+
+        <label for="usuario">Enter a password: </label>
+        <input type="password" id="password" placeholder="type here" maxlength="5" minlength="2">
+
+        <hr>
+
+        <label for="email">Enter your Email: </label>
+        <input type="email" id="email" placeholder="xxxxxxxxxx@xxxx.com">
+
+        <br>
+
+        <br>
+        <input type="checkbox" name="lenguajes" value="HTML">HTML
+        <input type="checkbox" name="lenguajes" value="CSS">CSS
+        <br>
+        
+        <input type="radio" name="lenguajes" value="HTML">HTML
+        <input type="radio" name="lenguajes" value="CSS">CSS
+        <br>
+        <label for="programando">tiempo programando</label>
+        <input type="number" id="programando" name="programando" placeholder="enter numbers" max="5" min="1" required>
+        <small>es obligatorio este campo</small>
+        <br>
+        <br>
+        <label for="archivos">seleccione un archivo</label>
+        <input type="file" id="archivos" name="archivos" multiple>
+        <br>
+        <br>
+        <label for="opinion">Deja tu opinion here!</label>
+        <textarea name="opinion" placeholder="escribe here!" rows="10" cols="30"></textarea>
+        <br>
+        <br>
+        <label for="seleccion">seleccione un pais</label>
+        <select name="pais" id="pais">
+
+            <optgroup label="Primeros">
+                <option value="Arg">Argentina</option>
+                <option value="Mex" selected="selected">Mexico</option>
+                <option value="Vet">Venezuela</option>
+            </optgroup>
+
+            <optgroup label="Segundo">
+                <option value="Arg">Argentina</option>
+                <option value="Arg">Argentina</option>
+                <option value="Arg">Argentina</option>
+            </optgroup>
+            
+            
+        </select>
+
+        <br>
+        <br>
+
+        <input type="date" id="fecha" name="fecha" max="2024-09-10">
+        
+        <br>
+        <br>
+        <input type="submit" value="enviar datos">
+        <input type="reset" value="resetear tu eres chevere">
+        <input type="button" onclick="alert('lleguense malandros')" value="saludar">
+        
+
+    </form>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
